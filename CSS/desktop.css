@@ -1,0 +1,115 @@
+@media screen and (min-width: 450px) {
+  .grid-container {
+    max-width: 45rem;
+  }
+}
+@media screen and (min-width: 850px) {
+  .grid-container {
+    max-width: none;
+    overflow: hidden;
+  }
+  .call-to-action {
+    background-image: url(../images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-inline: 3rem 10rem;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    justify-content: start;
+  }
+  .call-to-action h1 {
+    font-size: 3.4rem;
+    text-align: left;
+    margin: 0;
+  }
+  .call-to-action p {
+    text-align: left;
+    margin: 0;
+  }
+  .logo {
+    transform: scale(1);
+    align-self: start;
+    margin-block: 2.5rem;
+  }
+  .mobile {
+    display: none;
+  }
+  .desktop {
+    width: auto;
+    max-height: 100vh;
+    grid-column: 2/3;
+    grid-row: 1/3;
+    display: block;
+  }
+  .newsletter input {
+    margin-inline: 0;
+  }
+  .btn-submit {
+    right: 0;
+  }
+  .error p {
+    margin-left: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .call-to-action {
+    padding-top: 2.5rem;
+    padding-inline: 10rem;
+  }
+  .call-to-action h1 {
+    font-size: 6rem;
+  }
+  .logo {
+    margin-block: 5rem;
+  }
+  .newsletter input {
+    font-size: 2rem;
+  }
+  .btn-submit {
+    width: 8rem;
+    height: 5rem;
+  }
+  .newsletter.error input {
+    background-position: center right 8.5rem;
+  }
+  .error p {
+    font-size: 1.5rem;
+    margin-left: 2.5rem;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .call-to-action {
+    padding-inline: 15rem;
+    gap: 5rem;
+  }
+  .call-to-action h1 {
+    font-size: 8rem;
+  }
+  .call-to-action p {
+    font-size: 1.8rem;
+  }
+  .logo {
+    margin-bottom: 7.5rem;
+  }
+  .newsletter input {
+    font-size: 2.4rem;
+  }
+  .btn-submit {
+    width: 8rem;
+    height: 5.96rem;
+  }
+  .error p {
+    margin-left: 3rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .desktop {
+    max-height: none;
+    min-height: 100vh;
+  }
+}

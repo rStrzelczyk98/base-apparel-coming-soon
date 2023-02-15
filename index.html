@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/desktop.css" />
+    <script defer src="script.js"></script>
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+  </head>
+  <body>
+    <main class="grid-container">
+      <header class="call-to-action">
+        <img class="logo" src="images/logo.svg" alt="BASE APPAREL brand logo" />
+        <img class="mobile" src="images/hero-mobile.jpg" />
+        <h1>We're <span>coming soon</span></h1>
+        <p>
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our
+          launch deals.
+        </p>
+        <form class="newsletter" action="#" method="get">
+          <input
+            type="text"
+            id="email"
+            name="email"
+            aria-label="Write your email here"
+            aria-errormessage="errorID"
+            aria-invalid="false"
+            placeholder="Email Adress"
+          />
+          <button class="btn-submit" type="submit"></button>
+          <div class="error"></div>
+        </form>
+      </header>
+      <img class="desktop" src="images/hero-desktop.jpg" />
+    </main>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/rStrzelczyk98" target="_blank"
+          >Robert Strzelczyk</a
+        >.
+      </p>
+    </footer>
+  </body>
+</html>
