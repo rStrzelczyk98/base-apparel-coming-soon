@@ -31,7 +31,7 @@ function validInput(element) {
 
 function checkInput() {
   if (!email.value) {
-    displayError(email, "mail adress required");
+    displayError(email, "Email adress required");
     return false;
   } else if (!emailValidation(email)) {
     displayError(email, "Please provide a valid email");
